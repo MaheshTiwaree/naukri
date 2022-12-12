@@ -1,13 +1,170 @@
-body {
+*, *::before, *::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
 }
+
+body {
+    font-family: 'Helvetica Neue' sans-serif;
+    font-weight: 400;
+    color: #303F60;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+}
+
+.bg-primary-color {
+  background-color: #1A253C;
+}
+
+.bg-secondary-color {
+  background-color: #98c1e9;
+}
+
+.bg-box-color {
+  background-color: #fff;
+}
+
+.btn-primary-color {
+  background: #43AFFF;
+}
+
+.btn-secondary-color {
+  background-color: #43AFFF33;
+}
+
+.btn-tertiary-color {
+  background-color: #4D618E;
+}
+
+.heading-primary-color {
+color : #43AFFF;
+}
+
+.heading-white-color {
+  color : #fff;
+}
+
+.text-primary-color {
+  color : #303F60;
+}
+
+.text-error-color {
+  color : #FF0000;
+}
+
+/* ----------- Utilities ----------- */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+label {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+input {
+  width : 100%;
+  background: #E8E8E833;
+  border : 1px solid #c6c6c6;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #43AFFF;
+  /* box-shadow: 0 0 5px #43AFFF; */
+}
+
+#button {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 12rem;
+}
+
+.mainBtn{
+  background-color: #43afff;
+  border: 1px solid #43afff;
+  color: #fff
+}
+
+.mainBtn:hover {
+  background-color: rgba(67, 174, 255, 0.8);
+  color: #fff
+}
+
+.secondaryBtn {
+  background-color: #43AFFF33;
+  border: 1px solid #43AFFF33;
+  font-size: 1.4rem !important;
+  color: #fff
+}
+
+.secondaryBtn:hover {
+  background-color: rgba(67, 175, 255, 0.5);
+  color: #fff
+}
+
+/*----------- Card ----------- */
+.cardBox {
+  background-color: #fff;
+  box-shadow: 2px 2px 5x #557DA526;
+  padding: 1rem;
+  height: 15rem;
+  width: 25rem;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+
+
+/* ------------ Login ----------- */
+#login, #view-applicants {  
+  width: 45rem;
+  /* height: 40rem; */
+  position: absolute;
+  top : 15vh;
+  left: 30%;
+  z-index: 1;
+  justify-self: center;
+  background: #fff;
+
+}
+
+.formWrap {
+  background-color: #fff;
+  box-shadow: 0rem 3rem 3.6rem #557DA526;
+  border-radius: 1rem;
+  padding: 2rem 2.5rem;
+  margin : 0 auto
+}
+
+.formWrap h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.formWrap .formGroup {
+  margin-top: 2rem ;
+}
+
+.formWrap .mainBtn {
+  margin: 0 auto;
+  margin-top: 3.5rem;
+  margin-bottom: 5rem;
+ 
+}
+
+/* ------------- Navbar ------------ */
+
+/* ------------- Hero ------------- */
